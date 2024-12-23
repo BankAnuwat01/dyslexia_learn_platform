@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DyslexiaLearn Dashboard</title>
+    <link rel="stylesheet" href="../styles/dashboard.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>DyslexiaLearn AI Dashboard</h1>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="form-section">
+            <h2>Enter Data for Prediction</h2>
+            <form id="inputForm" class="form-container">
+                <div class="form-group">
+                    <label for="reading_speed">Reading Speed</label>
+                    <input type="number" id="reading_speed" placeholder="Enter Reading Speed" step="any" required>
+                </div>
+                <div class="form-group">
+                    <label for="task_difficulty">Task Difficulty</label>
+                    <input type="number" id="task_difficulty" placeholder="Enter Task Difficulty" step="any" required>
+                </div>
+                <div class="form-group">
+                    <label for="reading_comprehension">Reading Comprehension</label>
+                    <input type="number" id="reading_comprehension" placeholder="Enter Reading Comprehension" step="any" required>
+                </div>
+                <div class="form-group">
+                    <label for="engagement_level">Engagement Level</label>
+                    <input type="number" id="engagement_level" placeholder="Enter Engagement Level" step="any" required>
+                </div>
+                <div class="form-group">
+                    <label for="error_rate">Error Rate</label>
+                    <input type="number" id="error_rate" placeholder="Enter Error Rate" step="any" required>
+                </div>
+                <div class="form-group">
+                    <label for="task_completion_time">Task Completion Time</label>
+                    <input type="number" id="task_completion_time" placeholder="Enter Task Completion Time" step="any" required>
+                </div>
+                <div class="form-group">
+                    <label for="mood_engagement_score">Mood Engagement Score</label>
+                    <input type="number" id="mood_engagement_score" placeholder="Enter Mood Engagement Score" step="any" required>
+                </div>
+                <div class="form-group">
+                    <label for="success_rate">Success Rate</label>
+                    <input type="number" id="success_rate" placeholder="Enter Success Rate" step="any" required>
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </section>
+        <section class="charts">
+            <h2>Performance Overview</h2>
+            <div class="chart-container">
+                <canvas id="performanceChart"></canvas>
+                <div id="chart-description" style="margin-top: 1rem; text-align: center;"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 DyslexiaLearn. All rights reserved.</p>
+    </footer>
+    <script src="../scripts/dashboard.js"></script>
+</body>
+</html>

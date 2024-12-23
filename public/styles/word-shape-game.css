@@ -1,0 +1,123 @@
+/* General Container */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(135deg, #d066e5, #3f72ff);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#app {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 90%;
+    max-width: 700px;
+}
+
+/* Heading */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #333333;
+}
+
+/* Word Shapes */
+#shape-emoji {
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+    color: #00d5ff;
+}
+
+.emoji-indicator {
+    font-size: 2rem; /* Adjust size as needed */
+  }
+
+#word-shape {
+    font-size: 2.5rem;
+    letter-spacing: 0.6rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+/* Input Field */
+#word-input {
+    width: 80%;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+#word-input:focus {
+    border-color: #6366f1;
+}
+
+/* Buttons */
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.btn-black {
+    background-color: #000;
+    color: #fff;
+}
+
+.btn-gray {
+    background-color: #d1d5db;
+    color: #333;
+}
+
+.btn-green {
+    background-color: #28a745;
+    color: #fff;
+}
+
+/* Progress Bar */
+.progress-container {
+    margin-top: 1.5rem;
+}
+
+.progress-bar {
+    width: 80%;
+    height: 1rem;
+    background-color: #e5e7eb;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.progress-fill {
+    height: 100%;
+    width: 0;
+    background-color: #28a745;
+    transition: width 0.3s ease-in-out;
+}
+
+.progress-label {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    color: #333333;
+}

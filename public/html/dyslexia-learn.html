@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DyslexiaLearn Adventure</title>
+    <link rel="stylesheet" href="..\styles\dyslexia-learn.css">
+</head>
+<body>
+    <div id="app">
+        <h1>DyslexiaLearn Adventure 🚀</h1>
+        <p class="topic-header">
+            <strong>Topic:</strong> Fruits 🍎
+        </p>
+
+        <!-- Scrambled Word Display -->
+        <div id="scrambled-word" class="word-display">b a n a a n</div>
+
+        <!-- Hint Button -->
+        <button id="hint-btn" class="btn btn-gray">Hint</button>
+
+        <!-- Input Section -->
+        <input
+            type="text"
+            id="rearrange-input"
+            class="input-box"
+            placeholder="Rearrange the letters..."
+        />
+
+        <!-- Buttons -->
+        <div class="buttons-container">
+            <button id="check-btn" class="btn btn-black">Check</button>
+            <button id="new-word-btn" class="btn btn-green">New Word</button>
+        </div>
+
+        <!-- Feedback Section -->
+        <p id="feedback" class="feedback-text"></p>
+    </div>
+
+    <script src="..\scripts\dyslexia-learn.js"></script>
+</body>
+</html>

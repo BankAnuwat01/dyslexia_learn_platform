@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Shapes Game</title>
+    <link rel="stylesheet" href="../styles/word-shape-game.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Word Shapes Game</h1>
+        <div id="emoji-indicator" class="emoji-indicator"></div>
+        <div id="word-shape" class="word-circle-container"></div>
+        <div class="input-section">
+            <input type="text" id="word-input" placeholder="Guess the word..." />
+            <div class="buttons-container">
+                <button id="submit-word" class="btn btn-black">Submit</button>
+                <button id="new-word" class="btn btn-gray">New Word</button>
+                <button id="speak-word" class="btn btn-green">Speak Word</button>
+            </div>
+        </div>
+        <p class="progress-text">Progress: <span id="progress-value">0</span>%</p>
+        <div class="progress-bar">
+            <div class="progress-fill" id="progress-fill"></div>
+        </div>
+    </div>
+    <script src="../scripts/word-shape-game.js"></script>
+</body>
+</html>

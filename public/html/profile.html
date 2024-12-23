@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DyslexiaLearn Profile</title>
+    <link rel="stylesheet" href="../styles/profile.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Profile Dashboard</h1>
+            <a href="dashboard.html" class="nav-btn">Back to Dashboard</a>
+        </nav>
+    </header>
+    <main class="profile-container">
+        <section class="stats">
+            <div class="stat-card">
+                <h3>Points Earned</h3>
+                <p class="stat-value">817</p>
+            </div>
+            <div class="stat-card">
+                <h3>Levels Gained</h3>
+                <p class="stat-value">10</p>
+            </div>
+            <div class="stat-card">
+                <h3>Achievements</h3>
+                <p class="stat-value">4</p>
+            </div>
+        </section>
+        <section class="charts">
+            <div class="chart-container">
+                <h3>Points Distribution</h3>
+                <canvas id="distributionChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <h3>Progress Over Time</h3>
+                <canvas id="progressChart"></canvas>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 DyslexiaLearn. All rights reserved.</p>
+    </footer>
+    <script src="../scripts/profile.js"></script>
+</body>
+</html>
