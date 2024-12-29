@@ -80,4 +80,8 @@ function checkWin() {
 // Reset Game
 resetButton.addEventListener('click', initGame);
 
+document.getElementById("arrow").addEventListener("click", function() {
+    window.location.href = "../html/homepage.html";
+});
+
 initGame();

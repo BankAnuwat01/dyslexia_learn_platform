@@ -77,3 +77,11 @@ input#rearrange-input {
     background-color: #f59e0b;
     color: #fff;
 }
+
+.arrow {
+    position:absolute;
+    top: 0;
+    left:10px;
+    width:80px;
+    height:80px;
+}

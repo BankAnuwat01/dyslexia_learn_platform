@@ -44,3 +44,11 @@ input {
     margin-top: 1rem;
     font-weight: bold;
 }
+
+.arrow {
+    position:absolute;
+    top: 0px;
+    left:10px;
+    width: 80px;
+    height:80px;
+}

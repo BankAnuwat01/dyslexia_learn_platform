@@ -27,3 +27,6 @@ function checkWord() {
 
 speakButton.addEventListener('click', speakWord);
 checkButton.addEventListener('click', checkWord);
+document.getElementById("arrow").addEventListener("click", function() {
+    window.location.href = "../html/homepage.html";
+});

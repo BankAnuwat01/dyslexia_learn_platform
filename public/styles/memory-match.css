@@ -58,3 +58,11 @@ h1 {
 .btn:hover {
     background-color: #bc5e00;
 }
+
+.arrow {
+    position:absolute;
+    top: 0px;
+    left:10px;
+    width: 80px;
+    height:80px;
+}

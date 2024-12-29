@@ -77,6 +77,9 @@ function playWord() {
 document.getElementById("new-word").addEventListener("click", newWord);
 document.getElementById("submit-word").addEventListener("click", checkWord);
 document.getElementById("speak-word").addEventListener("click", playWord);
+document.getElementById("arrow").addEventListener("click", function() {
+    window.location.href = "../html/homepage.html";
+});
 
 // Initialize
 newWord();

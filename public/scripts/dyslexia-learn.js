@@ -42,5 +42,9 @@ document.getElementById("check-btn").addEventListener("click", checkWord);
 document.getElementById("new-word-btn").addEventListener("click", generateNewWord);
 document.getElementById("hint-btn").addEventListener("click", showHint);
 
+document.getElementById("arrow").addEventListener("click", function() {
+    window.location.href = "../html/homepage.html";
+});
+
 // Initialize the first word
 generateNewWord();
