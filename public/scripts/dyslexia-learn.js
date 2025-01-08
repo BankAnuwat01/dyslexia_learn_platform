@@ -1,4 +1,4 @@
-const words = ["banana", "apple", "grape", "orange", "melon", "kiwi", "peach"];
+const words = ["banana", "apple", "grape", "orange", "melon", "kiwi", "peach", "pear", "plum", "mango", "cherry", "strawberry", "blueberry", "raspberry", "blackberry", "pineapple", "pomegranate", "watermelon", "cantaloupe", "honeydew", "apricot", "fig", "date", "coconut", "guava", "lychee", "kiwifruit", "papaya", "passionfruit", "dragonfruit", "starfruit", "persimmon", "tamarind", "jackfruit", "durian", "rambutan", "mangosteen", "breadfruit", "longan", "lychee", "quince", "loquat", "kumquat", "carambola", "ugli", "soursop", "cherimoya", "custard apple", "pawpaw"];
 let currentWord = "";
 let scrambledWord = "";
 
